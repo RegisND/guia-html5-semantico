@@ -1,5 +1,8 @@
 # Guia Estruturado de HTML5
 
+🔗 Acesse a versão publicada:  
+https://regisnd.github.io/guia-html5-semantico/
+
 Projeto focado na aplicação prática dos fundamentos do HTML5, com ênfase em semântica, organização arquitetural e boas práticas na estruturação de documentos web.
 
 Este projeto foi desenvolvido no contexto de um bootcamp da DIO, mas estruturado com abordagem profissional, visando demonstrar domínio técnico na construção de páginas estáticas semanticamente consistentes.
