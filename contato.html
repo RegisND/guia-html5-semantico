@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Guia Estruturado de HTML5</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Guia Estruturado de HTML5</h1>
+        <p>Entre em contato para dúvidas ou sugestões.</p>
+    </header>
+
+    <nav>
+        <h2>Navegação Principal</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="tecnologias.html">Tecnologias</a></li>
+            <li><a href="fundamentos.html">Fundamentos</a></li>
+            <li><a href="organizacao.html">Organização</a></li>
+            <li><a href="contato.html" aria-current="page">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Formulário de Contato</h2>
+            <p>Preencha os campos abaixo para enviar sua mensagem.</p>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+
+                    <p>
+                        <label for="nome">Nome completo:</label><br>
+                        <input type="text" id="nome" name="nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="assunto">Assunto:</label><br>
+                        <input type="text" id="assunto" name="assunto">
+                    </p>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensagem</legend>
+
+                    <p>
+                        <label for="mensagem">Digite sua mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea>
+                    </p>
+
+                </fieldset>
+
+                <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </p>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Outras Formas de Contato</h2>
+
+            <article>
+                <h3>E-mail</h3>
+                <p>
+                    <a href="mailto:regis.dias1982@hotmail.com">
+                        regis.dias1982@hotmail.com
+                    </a>
+                </p>
+            </article>
+
+            <article>
+                <h3>LinkedIn</h3>
+                <p>
+                    Conecte-se pelo LinkedIn:
+                    <a href="https://www.linkedin.com/in/reginaldo-neves-dias-00ba43249" target="_blank" rel="noopener">
+                        Acessar perfil no LinkedIn
+                    </a>
+                </p>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Guia Estruturado de HTML5 - Projeto educacional - 2026</p>
+        <p>
+            <a href="index.html">Voltar para Home</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>

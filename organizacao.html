@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organização do Projeto | Guia Estruturado de HTML5</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Guia Estruturado de HTML5</h1>
+        <p>Boas práticas de organização e estruturação de projetos HTML.</p>
+    </header>
+
+    <nav>
+        <h2>Navegação Principal</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="tecnologias.html">Tecnologias</a></li>
+            <li><a href="fundamentos.html">Fundamentos</a></li>
+            <li><a href="organizacao.html" aria-current="page">Organização</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Estrutura de Arquivos</h2>
+            <p>
+                A organização adequada de arquivos facilita manutenção, escalabilidade
+                e colaboração em projetos web.
+            </p>
+
+            <pre><code>
+projeto-html/
+│
+├── index.html
+├── historia.html
+├── tecnologias.html
+├── fundamentos.html
+├── organizacao.html
+├── contato.html
+│
+├── assets/
+│   ├── images/
+│   └── videos/
+│
+└── README.md
+            </code></pre>
+        </section>
+
+        <section>
+            <h2>Hierarquia Semântica</h2>
+
+            <article>
+                <h3>Uso Correto de Headings</h3>
+                <p>
+                    A hierarquia deve seguir ordem lógica:
+                    <strong>h1 → h2 → h3 → h4</strong>,
+                    evitando pular níveis.
+                </p>
+            </article>
+
+            <article>
+                <h3>Separação de Responsabilidades</h3>
+                <ul>
+                    <li><strong>HTML</strong>: Estrutura e significado</li>
+                    <li><strong>CSS</strong>: Apresentação visual</li>
+                    <li><strong>JavaScript</strong>: Comportamento e interatividade</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>Boas Práticas</h2>
+
+            <article>
+                <h3>Indentação</h3>
+                <p>
+                    Utilize indentação consistente para melhorar a legibilidade
+                    do código.
+                </p>
+            </article>
+
+            <article>
+                <h3>Nomes de Arquivos</h3>
+                <p>
+                    Prefira nomes em <em>minúsculas</em>, sem espaços e
+                    com palavras separadas por hífen.
+                </p>
+            </article>
+
+            <article>
+                <h3>Acessibilidade</h3>
+                <p>
+                    Utilize atributos como <code>alt</code> em imagens,
+                    associe corretamente <code>label</code> e <code>input</code>,
+                    e mantenha estrutura semântica adequada.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Validação e Padronização</h2>
+            <p>
+                É recomendável validar o código HTML para garantir conformidade
+                com os padrões da web e evitar erros estruturais.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Guia Estruturado de HTML5 - Projeto educacional - 2026</p>
+        <p>
+            <a href="index.html">Voltar para Home</a> | <a href="contato.html">Contato</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de HTML | Guia Estruturado de HTML5</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Guia Estruturado de HTML5</h1>
+        <p>Fundamentos e principais tags do HTML5.</p>
+    </header>
+
+    <nav>
+        <h2>Navegação Principal</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="tecnologias.html">Tecnologias</a></li>
+            <li><a href="fundamentos.html" aria-current="page">Fundamentos</a></li>
+            <li><a href="organizacao.html">Organização</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Guia das Principais Tags do HTML5</h2>
+            <p>
+                Nesta página apresentamos as principais tags utilizadas na
+                construção de documentos HTML5, organizadas por categoria.
+            </p>
+        </section>
+
+        <section>
+            <h2>Sumário Interno</h2>
+            <ul>
+                <li><a href="#estrutura">Estrutura Básica</a></li>
+                <li><a href="#semanticas">Tags Semânticas</a></li>
+                <li><a href="#texto">Texto e Formatação</a></li>
+                <li><a href="#listas">Listas</a></li>
+                <li><a href="#midia">Imagens e Mídia</a></li>
+                <li><a href="#formularios">Formulários</a></li>
+                <li><a href="#tabelas">Tabelas</a></li>
+            </ul>
+        </section>
+
+        <section id="estrutura">
+            <h2>Estrutura Básica do Documento</h2>
+
+            <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Título&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        Conteúdo
+    &lt;/body&gt;
+&lt;/html&gt;
+            </code></pre>
+        </section>
+
+        <section id="semanticas">
+            <h2>Tags Semânticas</h2>
+
+            <ul>
+                <li><strong>&lt;header&gt;</strong> — Cabeçalho</li>
+                <li><strong>&lt;nav&gt;</strong> — Navegação</li>
+                <li><strong>&lt;main&gt;</strong> — Conteúdo principal</li>
+                <li><strong>&lt;section&gt;</strong> — Seção temática</li>
+                <li><strong>&lt;article&gt;</strong> — Conteúdo independente</li>
+                <li><strong>&lt;aside&gt;</strong> — Conteúdo complementar</li>
+                <li><strong>&lt;footer&gt;</strong> — Rodapé</li>
+            </ul>
+        </section>
+
+        <section id="texto">
+            <h2>Texto e Formatação</h2>
+
+            <p><strong>Texto em negrito</strong></p>
+            <p><em>Texto em ênfase</em></p>
+            <p><mark>Texto destacado</mark></p>
+
+            <blockquote>
+                Este é um exemplo de citação em bloco.
+            </blockquote>
+
+            <pre><code>console.log("Exemplo de código");</code></pre>
+        </section>
+
+        <section id="listas">
+            <h2>Listas</h2>
+
+            <h3>Lista Não Ordenada</h3>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+
+            <h3>Lista Ordenada</h3>
+            <ol>
+                <li>Primeiro</li>
+                <li>Segundo</li>
+            </ol>
+        </section>
+
+        <section id="midia">
+            <h2>Imagens e Mídia</h2>
+
+            <figure>
+                <img src="imagem-exemplo.jpg" alt="Descrição da imagem">
+                <figcaption>Exemplo de imagem com legenda.</figcaption>
+            </figure>
+
+            <video controls width="300">
+                <source src="video-exemplo.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
+            </video>
+        </section>
+
+        <section id="formularios">
+            <h2>Formulários</h2>
+
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+
+                <br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="tabelas">
+            <h2>Tabelas</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>Define um parágrafo</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;a&gt;</td>
+                        <td>Define um link</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Guia Estruturado de HTML5 - Projeto educacional - 2026</p>
+        <p>
+            <a href="index.html">Voltar para Home</a> | <a href="contato.html">Contato</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
